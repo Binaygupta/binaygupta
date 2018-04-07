@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<style type="text/css">
+body {background-color: cyan;}
+h1   {text-allign: centre;}
+p    {color: red;}
+</style>
+
+<marquee><h1><b>STUDENT REGISTRATION FORM<b></h1></marquee>
+ 
+<table align="center" cellpadding = "10">
+<form action="indexregistration" method="post">
+<!-----First Name---------------------------------------------------------->
+<tr>
+<td><b>NAME</b></td>
+<td><input type="text" name="k1"  id="k1" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+
+<!-----Date Of Birth-------------------------------------------------------->
+<tr>
+<td><b>DATE OF BIRTH</b></td>
+ 
+<td>
+<input type="date" name="k2" id="k2">
+ </td>
+<!-----Email Id---------------------------------------------------------->
+<tr>
+<td><b>EMAIL ID</b></td>
+<td><input type="text" name="k3" id="k3" maxlength="100" /></td>
+</tr>
+ 
+<!-----Mobile Number--------------------------------------------------------->
+<tr>
+<td><b>MOBILE NUMBER</b></td>
+<td>
+<input type="text" name="k4"  id="k4" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+ 
+<!-----Address---------------------------------------------------------->
+<tr>
+<td><b>DEPARTMENT</b> </td>
+<td><input type="text" name="k5" id="k5" ></td>
+</tr>
+ 
+<!----- Hobbies ---------------------------------------------------------->
+ <tr>
+ <td>Select Languages:</td><br>
+<td><input type="checkbox" name="lang" value="C/C++">C/C++</td><br>
+<td><input type="checkbox" name="lang" value="JAVA">Java</td><br>
+<td><input type="checkbox" name="lang" value="C#">C#</td><br>
+<td><input type="checkbox" name="lang" value="PERL">PERL</td><br>
+<td><input type="checkbox" name="lang" value="PYTHON">PYTHON</td><br>
+ </tr>
+<!----- Events ---------------------------------------------------------->
+ 
+ <!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+ 
+</body>
+</html>
